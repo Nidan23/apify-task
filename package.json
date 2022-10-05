@@ -1,6 +1,9 @@
 {
   "name": "apify-one",
   "version": "1.0.0",
+  "scripts": {
+    "start": "npx ts-node src/main.ts"
+  },
   "dependencies": {
     "axios": "^1.0.0"
   }
