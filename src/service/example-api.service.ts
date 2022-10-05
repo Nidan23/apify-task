@@ -7,7 +7,7 @@ export class ExampleApiService {
 
     private apiPriceRange = ApiPriceRange
     private increasePriceBy: number = 100
-    private decreasePriceBy: number = 10
+    private decreasePriceBy: number = 1
     private exampleApiUrl: string = "https://api.ecommerce.com/products"
 
     private constructor() {}
